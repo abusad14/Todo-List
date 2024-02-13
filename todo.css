@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right , rgb(83, 45, 141) , rgb(242, 192, 192));
+}
+.head{
+    height: 5vh;
+    background-color: #0000002e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 800;
+    padding: 10px;    
+}
+.body{
+    height: 85vh;
+    width: 55vw;
+    background-color: rgb(193, 211, 233);
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+.input-box{
+    margin: 10px;
+    height: 4vh;
+    width: 30vw;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.add-button{
+    height: 5vh;
+    width: 13vh;
+    background-color: limegreen;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.3vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.date{ 
+     margin: 10px;
+    height: 4vh;
+    width: 10vw;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.button-div{
+    display: flex;
+}
+.showing{
+    margin: 1vw 3vw;
+    display: grid;
+    grid-template-columns: 20vw 15vw 8vw;
+    row-gap: 1vw;
+}
+.btn-delete{
+    height: 5vh;
+    width: 13vh;
+    background-color: rgb(173, 36, 36);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+}
+.btn-delete:hover , .add-button:hover{
+    transform:scale(1.1);
+
+}
+span{
+    font-size: 1.5vw;
+    /* background-color: rgb(210, 206, 206); */
+}
+
